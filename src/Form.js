@@ -6,7 +6,7 @@ class FormPage extends Component {
 
   handleSubmit = async (event) => {
     event.preventDefault();
-    const resp = await axios.get(`http://www.omdbapi.com/?t=${this.state.movieName}&apikey=1691e553`)
+    const resp = await axios.get(`https://www.omdbapi.com/?t=${this.state.movieName}&apikey=1691e553`)
     if(resp.data.Response === "True"){
       this.props.submit(resp.data);
       this.setState({movieName: ""})
