@@ -22,7 +22,6 @@ class App extends Component {
         </nav>
         <Form submit={this.addNewMovie}/>
         <Show movies={this.state.movies}/>
-        <footer>Get the source code <a href="https://github.com/ayeolakenny/React-movie-webapp" >Here</a></footer>
       </div>
     );  
  }  
