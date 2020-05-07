@@ -32,7 +32,7 @@ class FormPage extends Component {
             aria-describedby="button-addon2"
             />
             <div className="input-group-append">
-              <button className="btn btn-outline-dark" id="button-addon2">Button</button>
+              <button className="btn btn-outline-dark" id="button-addon2">Check Movie</button>
             </div>
           </div>
         </form>
